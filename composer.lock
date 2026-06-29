@@ -1697,16 +1697,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.12.3",
+            "version": "7.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9aa17bcdd777ee31df9fc83c337ca4ca2340def3"
+                "reference": "55901a76dfd2006a0cc012b9e3c5b487f796478d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9aa17bcdd777ee31df9fc83c337ca4ca2340def3",
-                "reference": "9aa17bcdd777ee31df9fc83c337ca4ca2340def3",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/55901a76dfd2006a0cc012b9e3c5b487f796478d",
+                "reference": "55901a76dfd2006a0cc012b9e3c5b487f796478d",
                 "shasum": ""
             },
             "require": {
@@ -1725,7 +1725,7 @@
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "ext-curl": "*",
                 "guzzle/client-integration-tests": "3.0.2",
-                "guzzlehttp/test-server": "^0.5.1",
+                "guzzlehttp/test-server": "^0.6",
                 "php-http/message-factory": "^1.1",
                 "phpunit/phpunit": "^8.5.52 || ^9.6.34",
                 "psr/log": "^1.1 || ^2.0 || ^3.0"
@@ -1805,7 +1805,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.12.3"
+                "source": "https://github.com/guzzle/guzzle/tree/7.13.1"
             },
             "funding": [
                 {
@@ -1821,7 +1821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-23T15:29:02+00:00"
+            "time": "2026-06-29T20:14:18+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -2240,36 +2240,36 @@
             "version": "2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jeffersongoncalves/filament-erp.git",
-                "reference": "ecf6f5ceed213331bb5cbc3235de5396526e1990"
+                "url": "https://github.com/jeffersongoncalves/filament-erp-suite.git",
+                "reference": "730a8c3074cffbacc4a40965f791559907d7987b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp/zipball/ecf6f5ceed213331bb5cbc3235de5396526e1990",
-                "reference": "ecf6f5ceed213331bb5cbc3235de5396526e1990",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-suite/zipball/730a8c3074cffbacc4a40965f791559907d7987b",
+                "reference": "730a8c3074cffbacc4a40965f791559907d7987b",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
-                "jeffersongoncalves/filament-erp-accounting": "2.x-dev",
-                "jeffersongoncalves/filament-erp-assets": "2.x-dev",
-                "jeffersongoncalves/filament-erp-buying": "2.x-dev",
-                "jeffersongoncalves/filament-erp-core": "2.x-dev",
-                "jeffersongoncalves/filament-erp-crm": "2.x-dev",
-                "jeffersongoncalves/filament-erp-maintenance": "2.x-dev",
-                "jeffersongoncalves/filament-erp-manufacturing": "2.x-dev",
-                "jeffersongoncalves/filament-erp-projects": "2.x-dev",
-                "jeffersongoncalves/filament-erp-quality": "2.x-dev",
-                "jeffersongoncalves/filament-erp-selling": "2.x-dev",
-                "jeffersongoncalves/filament-erp-stock": "2.x-dev",
-                "jeffersongoncalves/filament-erp-subcontracting": "2.x-dev",
-                "jeffersongoncalves/filament-erp-support": "2.x-dev",
+                "jeffersongoncalves/filament-erp-accounting": "self.version",
+                "jeffersongoncalves/filament-erp-assets": "self.version",
+                "jeffersongoncalves/filament-erp-buying": "self.version",
+                "jeffersongoncalves/filament-erp-core": "self.version",
+                "jeffersongoncalves/filament-erp-crm": "self.version",
+                "jeffersongoncalves/filament-erp-maintenance": "self.version",
+                "jeffersongoncalves/filament-erp-manufacturing": "self.version",
+                "jeffersongoncalves/filament-erp-projects": "self.version",
+                "jeffersongoncalves/filament-erp-quality": "self.version",
+                "jeffersongoncalves/filament-erp-selling": "self.version",
+                "jeffersongoncalves/filament-erp-stock": "self.version",
+                "jeffersongoncalves/filament-erp-subcontracting": "self.version",
+                "jeffersongoncalves/filament-erp-support": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
             },
             "require-dev": {
                 "larastan/larastan": "^3.0",
-                "laravel/pint": "^1.21",
+                "laravel/pint": "^1.0",
                 "orchestra/testbench": "^10.0|^11.0",
                 "pestphp/pest": "^3.0|^4.0",
                 "pestphp/pest-plugin-laravel": "^3.0|^4.0"
@@ -2294,10 +2294,12 @@
             "authors": [
                 {
                     "name": "Jefferson Gonçalves",
-                    "email": "gerson.simao.92@gmail.com"
+                    "email": "gerson.simao.92@gmail.com",
+                    "role": "Developer"
                 }
             ],
-            "description": "Umbrella Filament v4 plugin bundling the full Laravel ERP ecosystem (accounting, stock, selling, buying, manufacturing, assets, subcontracting, CRM, projects, support, quality, maintenance) into one panel plugin.",
+            "description": "Umbrella Filament v5 plugin bundling the full Laravel ERP ecosystem (accounting, stock, selling, buying, manufacturing, assets, subcontracting, CRM, projects, support, quality, maintenance) into one panel plugin.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "bundle",
@@ -2308,15 +2310,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp/tree/2.x"
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T18:07:50+00:00"
+            "time": "2026-06-29T18:13:17+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-accounting",
@@ -2324,16 +2320,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-accounting.git",
-                "reference": "74ba1c1c55f6425ecdf130687eccd19add861dac"
+                "reference": "968332ef1d4f9626d275aabeb7eba55f86b95325"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-accounting/zipball/74ba1c1c55f6425ecdf130687eccd19add861dac",
-                "reference": "74ba1c1c55f6425ecdf130687eccd19add861dac",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-accounting/zipball/968332ef1d4f9626d275aabeb7eba55f86b95325",
+                "reference": "968332ef1d4f9626d275aabeb7eba55f86b95325",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-accounting": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2368,7 +2365,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP accounting module — chart of accounts, journal/payment entries, invoices and the general ledger.",
+            "description": "Filament v5 panel resources for the Laravel ERP accounting module — chart of accounts, journal/payment entries, invoices and the general ledger.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "Accounting",
                 "ERP",
@@ -2379,16 +2377,10 @@
                 "laravel"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-accounting/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-accounting/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:48:54+00:00"
+            "time": "2026-06-29T18:13:19+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-assets",
@@ -2396,16 +2388,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-assets.git",
-                "reference": "7e21a90cb11097d8537e7765277d81e48f6083de"
+                "reference": "db8e0e140b1de98776c5f1286e129161739c6169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-assets/zipball/7e21a90cb11097d8537e7765277d81e48f6083de",
-                "reference": "7e21a90cb11097d8537e7765277d81e48f6083de",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-assets/zipball/db8e0e140b1de98776c5f1286e129161739c6169",
+                "reference": "db8e0e140b1de98776c5f1286e129161739c6169",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-assets": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2441,6 +2434,7 @@
                 }
             ],
             "description": "Filament v4 panel resources for the Laravel ERP assets module — fixed asset register, depreciation and movements.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "assets",
@@ -2451,16 +2445,10 @@
                 "laravel"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-assets/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-assets/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T17:44:06+00:00"
+            "time": "2026-06-29T18:13:20+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-buying",
@@ -2468,16 +2456,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-buying.git",
-                "reference": "b0b17d574cc400a699d522e7209f1047374a4682"
+                "reference": "fb2ee394bd9a3bbc689992de32a75e2ef4e16215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-buying/zipball/b0b17d574cc400a699d522e7209f1047374a4682",
-                "reference": "b0b17d574cc400a699d522e7209f1047374a4682",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-buying/zipball/fb2ee394bd9a3bbc689992de32a75e2ef4e16215",
+                "reference": "fb2ee394bd9a3bbc689992de32a75e2ef4e16215",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-buying": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2512,7 +2501,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP buying module — suppliers, RFQs, supplier quotations and purchase orders.",
+            "description": "Filament v5 panel resources for the Laravel ERP buying module — suppliers, RFQs, supplier quotations and purchase orders.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "buying",
@@ -2524,16 +2514,10 @@
                 "supplier"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-buying/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-buying/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T17:38:29+00:00"
+            "time": "2026-06-29T18:13:21+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-core",
@@ -2541,12 +2525,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-core.git",
-                "reference": "c6d154a1b2b3bc85d829dae702992db22eaa3e9c"
+                "reference": "6efc0b394c2ded59eeb1419b4c486ef266e3907c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-core/zipball/c6d154a1b2b3bc85d829dae702992db22eaa3e9c",
-                "reference": "c6d154a1b2b3bc85d829dae702992db22eaa3e9c",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-core/zipball/6efc0b394c2ded59eeb1419b4c486ef266e3907c",
+                "reference": "6efc0b394c2ded59eeb1419b4c486ef266e3907c",
                 "shasum": ""
             },
             "require": {
@@ -2585,7 +2569,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP core — companies, currencies, units, fiscal years and organizational masters.",
+            "description": "Filament v5 panel resources for the Laravel ERP core — companies, currencies, units, fiscal years and organizational masters.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "company",
@@ -2596,16 +2581,10 @@
                 "uom"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-core/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-core/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T17:23:31+00:00"
+            "time": "2026-06-29T18:13:19+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-crm",
@@ -2613,16 +2592,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-crm.git",
-                "reference": "d82a8c84f0c45d9e533d70bed4bb2ad254183eac"
+                "reference": "6956f966302677fed1600071393441cae1029bdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-crm/zipball/d82a8c84f0c45d9e533d70bed4bb2ad254183eac",
-                "reference": "d82a8c84f0c45d9e533d70bed4bb2ad254183eac",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-crm/zipball/6956f966302677fed1600071393441cae1029bdd",
+                "reference": "6956f966302677fed1600071393441cae1029bdd",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-crm": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2657,7 +2637,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP CRM module — leads, opportunities and campaigns.",
+            "description": "Filament v5 panel resources for the Laravel ERP CRM module — leads, opportunities and campaigns.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "campaign",
@@ -2669,16 +2650,10 @@
                 "opportunity"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-crm/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-crm/tree/2.0.0"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:37:59+00:00"
+            "time": "2026-06-29T18:13:23+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-maintenance",
@@ -2686,16 +2661,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-maintenance.git",
-                "reference": "174383adf86b4949b2493ec4c23afe16568ef9bf"
+                "reference": "943ed8cd93ad4ea47a010ee2edbe27281e18e5b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-maintenance/zipball/174383adf86b4949b2493ec4c23afe16568ef9bf",
-                "reference": "174383adf86b4949b2493ec4c23afe16568ef9bf",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-maintenance/zipball/943ed8cd93ad4ea47a010ee2edbe27281e18e5b8",
+                "reference": "943ed8cd93ad4ea47a010ee2edbe27281e18e5b8",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-maintenance": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2730,7 +2706,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP maintenance module — maintenance schedules and visits.",
+            "description": "Filament v5 panel resources for the Laravel ERP maintenance module — maintenance schedules and visits.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "filament",
@@ -2741,16 +2718,10 @@
                 "maintenance-visit"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-maintenance/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-maintenance/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T17:56:00+00:00"
+            "time": "2026-06-29T18:13:17+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-manufacturing",
@@ -2758,16 +2729,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-manufacturing.git",
-                "reference": "92385d5cff17969ece8f0dcccbcfd1c3341815a8"
+                "reference": "8ce84e22e7de0c5c5396e3870acbd61f37d21124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-manufacturing/zipball/92385d5cff17969ece8f0dcccbcfd1c3341815a8",
-                "reference": "92385d5cff17969ece8f0dcccbcfd1c3341815a8",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-manufacturing/zipball/8ce84e22e7de0c5c5396e3870acbd61f37d21124",
+                "reference": "8ce84e22e7de0c5c5396e3870acbd61f37d21124",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-manufacturing": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2802,7 +2774,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP manufacturing module — BOMs, work orders and job cards.",
+            "description": "Filament v5 panel resources for the Laravel ERP manufacturing module — BOMs, work orders and job cards.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "bom",
@@ -2814,16 +2787,10 @@
                 "work-order"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-manufacturing/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-manufacturing/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:37:44+00:00"
+            "time": "2026-06-29T18:13:19+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-projects",
@@ -2831,16 +2798,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-projects.git",
-                "reference": "2f721d60c62a509fd18450f12635eff26c21ca20"
+                "reference": "89783359f96906cc64a2e924f6ada7b8c2c9c084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-projects/zipball/2f721d60c62a509fd18450f12635eff26c21ca20",
-                "reference": "2f721d60c62a509fd18450f12635eff26c21ca20",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-projects/zipball/89783359f96906cc64a2e924f6ada7b8c2c9c084",
+                "reference": "89783359f96906cc64a2e924f6ada7b8c2c9c084",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-projects": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2875,7 +2843,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP projects module — projects, tasks and timesheets.",
+            "description": "Filament v5 panel resources for the Laravel ERP projects module — projects, tasks and timesheets.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "Tasks",
@@ -2886,16 +2855,10 @@
                 "timesheets"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-projects/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-projects/tree/2.0.0"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:38:04+00:00"
+            "time": "2026-06-29T18:13:19+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-quality",
@@ -2903,16 +2866,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-quality.git",
-                "reference": "1ab8f1a1f82b019d673e3b5059a2e635fec31e70"
+                "reference": "bdb809f5ced6fed2275f917a456903d53278653f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-quality/zipball/1ab8f1a1f82b019d673e3b5059a2e635fec31e70",
-                "reference": "1ab8f1a1f82b019d673e3b5059a2e635fec31e70",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-quality/zipball/bdb809f5ced6fed2275f917a456903d53278653f",
+                "reference": "bdb809f5ced6fed2275f917a456903d53278653f",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-quality": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -2947,7 +2911,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP quality module — inspections, goals, procedures and non-conformances.",
+            "description": "Filament v5 panel resources for the Laravel ERP quality module — inspections, goals, procedures and non-conformances.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "filament",
@@ -2959,16 +2924,10 @@
                 "quality"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-quality/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-quality/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T17:54:10+00:00"
+            "time": "2026-06-29T18:13:17+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-selling",
@@ -2976,16 +2935,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-selling.git",
-                "reference": "ff1898dfda6fa77d6c3d00b614bf1540ec67ee15"
+                "reference": "d71dff9d2e2c55813a22295a78ef35fb798cfda2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-selling/zipball/ff1898dfda6fa77d6c3d00b614bf1540ec67ee15",
-                "reference": "ff1898dfda6fa77d6c3d00b614bf1540ec67ee15",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-selling/zipball/d71dff9d2e2c55813a22295a78ef35fb798cfda2",
+                "reference": "d71dff9d2e2c55813a22295a78ef35fb798cfda2",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-selling": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -3020,7 +2980,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP selling module — customers, quotations and sales orders.",
+            "description": "Filament v5 panel resources for the Laravel ERP selling module — customers, quotations and sales orders.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "crm",
@@ -3031,16 +2992,10 @@
                 "selling"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-selling/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-selling/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:48:58+00:00"
+            "time": "2026-06-29T18:13:18+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-stock",
@@ -3048,16 +3003,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-stock.git",
-                "reference": "d97d7f10a1823b6f5d6bebaf85bf09b723adfa97"
+                "reference": "ff34eb5791d480c8a26fdb65f9c634e89ec541d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-stock/zipball/d97d7f10a1823b6f5d6bebaf85bf09b723adfa97",
-                "reference": "d97d7f10a1823b6f5d6bebaf85bf09b723adfa97",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-stock/zipball/ff34eb5791d480c8a26fdb65f9c634e89ec541d9",
+                "reference": "ff34eb5791d480c8a26fdb65f9c634e89ec541d9",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-stock": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -3092,7 +3048,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP stock module — items, warehouses, stock entries and the perpetual inventory ledger.",
+            "description": "Filament v5 panel resources for the Laravel ERP stock module — items, warehouses, stock entries and the perpetual inventory ledger.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "filament",
@@ -3103,16 +3060,10 @@
                 "warehouse"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-stock/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-stock/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T17:33:38+00:00"
+            "time": "2026-06-29T18:13:17+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-subcontracting",
@@ -3120,16 +3071,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-subcontracting.git",
-                "reference": "baf33341ffbd597679d0587478b4da9d9e636e83"
+                "reference": "57798fb0a3ba9f21f97403e210d41e2c71ced193"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-subcontracting/zipball/baf33341ffbd597679d0587478b4da9d9e636e83",
-                "reference": "baf33341ffbd597679d0587478b4da9d9e636e83",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-subcontracting/zipball/57798fb0a3ba9f21f97403e210d41e2c71ced193",
+                "reference": "57798fb0a3ba9f21f97403e210d41e2c71ced193",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-subcontracting": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -3164,7 +3116,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP subcontracting module — subcontracting BOMs, orders and receipts.",
+            "description": "Filament v5 panel resources for the Laravel ERP subcontracting module — subcontracting BOMs, orders and receipts.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "filament",
@@ -3176,16 +3129,10 @@
                 "subcontracting-receipt"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-subcontracting/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-subcontracting/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:37:54+00:00"
+            "time": "2026-06-29T18:13:19+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-erp-support",
@@ -3193,16 +3140,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/filament-erp-support.git",
-                "reference": "f916cef731ba652f8b1afda41a1f81d582b0baff"
+                "reference": "324623d97a94b6112829f5cbfd126aad6e59ea33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-support/zipball/f916cef731ba652f8b1afda41a1f81d582b0baff",
-                "reference": "f916cef731ba652f8b1afda41a1f81d582b0baff",
+                "url": "https://api.github.com/repos/jeffersongoncalves/filament-erp-support/zipball/324623d97a94b6112829f5cbfd126aad6e59ea33",
+                "reference": "324623d97a94b6112829f5cbfd126aad6e59ea33",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
+                "jeffersongoncalves/filament-erp-core": "self.version",
                 "jeffersongoncalves/laravel-erp-support": "dev-main",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.14.0"
@@ -3237,7 +3185,8 @@
                     "email": "gerson.simao.92@gmail.com"
                 }
             ],
-            "description": "Filament v4 panel resources for the Laravel ERP support module — issues, SLAs and warranty claims.",
+            "description": "Filament v5 panel resources for the Laravel ERP support module — issues, SLAs and warranty claims.",
+            "homepage": "https://github.com/jeffersongoncalves/filament-erp",
             "keywords": [
                 "ERP",
                 "filament",
@@ -3249,16 +3198,10 @@
                 "warranty"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/filament-erp-support/issues",
-                "source": "https://github.com/jeffersongoncalves/filament-erp-support/tree/2.x"
+                "issues": "https://github.com/jeffersongoncalves/filament-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/filament-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T20:49:19+00:00"
+            "time": "2026-06-29T18:13:16+00:00"
         },
         {
             "name": "jeffersongoncalves/filament-logo",
@@ -3540,12 +3483,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-accounting.git",
-                "reference": "892afd14f7f1431c16f0fdca41a2a4e715b11144"
+                "reference": "b0adc57d21ebbcbdd83db25d7c7ae4062ab21810"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-accounting/zipball/892afd14f7f1431c16f0fdca41a2a4e715b11144",
-                "reference": "892afd14f7f1431c16f0fdca41a2a4e715b11144",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-accounting/zipball/b0adc57d21ebbcbdd83db25d7c7ae4062ab21810",
+                "reference": "b0adc57d21ebbcbdd83db25d7c7ae4062ab21810",
                 "shasum": ""
             },
             "require": {
@@ -3553,7 +3496,7 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -3591,27 +3534,20 @@
                 }
             ],
             "description": "ERP accounting — chart of accounts, general ledger, journal/payment entries and invoices for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-accounting",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "Accounting",
                 "ERP",
-                "ERPNext",
                 "general-ledger",
                 "invoice",
                 "laravel",
                 "submittable"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-accounting/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-accounting/tree/1.0.0"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:57:49+00:00"
+            "time": "2026-06-29T17:21:36+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-assets",
@@ -3619,12 +3555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-assets.git",
-                "reference": "7670341300ce928697a899fd56ed4f818f3a1ac1"
+                "reference": "70777ef0db17d1288c4372259d0f5968b03292f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-assets/zipball/7670341300ce928697a899fd56ed4f818f3a1ac1",
-                "reference": "7670341300ce928697a899fd56ed4f818f3a1ac1",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-assets/zipball/70777ef0db17d1288c4372259d0f5968b03292f9",
+                "reference": "70777ef0db17d1288c4372259d0f5968b03292f9",
                 "shasum": ""
             },
             "require": {
@@ -3632,8 +3568,8 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -3671,10 +3607,9 @@
                 }
             ],
             "description": "ERP assets — fixed asset register, depreciation and movements for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-assets",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "assets",
                 "depreciation",
                 "fixed-asset",
@@ -3682,10 +3617,10 @@
                 "submittable"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-assets/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-assets/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "time": "2026-06-28T02:09:24+00:00"
+            "time": "2026-06-29T17:21:35+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-buying",
@@ -3693,12 +3628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-buying.git",
-                "reference": "3566fb66c4e9cce795c014f677c5d983c7c67eab"
+                "reference": "4c005ac403b9f49894debfec0e93ddacd279803f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-buying/zipball/3566fb66c4e9cce795c014f677c5d983c7c67eab",
-                "reference": "3566fb66c4e9cce795c014f677c5d983c7c67eab",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-buying/zipball/4c005ac403b9f49894debfec0e93ddacd279803f",
+                "reference": "4c005ac403b9f49894debfec0e93ddacd279803f",
                 "shasum": ""
             },
             "require": {
@@ -3706,9 +3641,9 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
-                "jeffersongoncalves/laravel-erp-stock": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
+                "jeffersongoncalves/laravel-erp-stock": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -3746,10 +3681,9 @@
                 }
             ],
             "description": "ERP buying — suppliers, RFQs, supplier quotations and purchase orders for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-buying",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "buying",
                 "laravel",
                 "procurement",
@@ -3757,10 +3691,10 @@
                 "supplier"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-buying/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-buying/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "time": "2026-06-28T02:36:37+00:00"
+            "time": "2026-06-29T17:21:41+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-core",
@@ -3768,12 +3702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-core.git",
-                "reference": "3845cc8548592b90cc2bd34e93a0b602bfe816b6"
+                "reference": "f0764d1ede20daa451bb526ec066826cf9efbfed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-core/zipball/3845cc8548592b90cc2bd34e93a0b602bfe816b6",
-                "reference": "3845cc8548592b90cc2bd34e93a0b602bfe816b6",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-core/zipball/f0764d1ede20daa451bb526ec066826cf9efbfed",
+                "reference": "f0764d1ede20daa451bb526ec066826cf9efbfed",
                 "shasum": ""
             },
             "require": {
@@ -3818,27 +3752,20 @@
                 }
             ],
             "description": "ERP core — companies, currencies, units, and submittable-document foundation for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-core",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "Accounting",
                 "ERP",
-                "ERPNext",
                 "company",
                 "currency",
                 "laravel",
                 "submittable"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-core/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-core/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:57:46+00:00"
+            "time": "2026-06-29T16:50:52+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-crm",
@@ -3846,12 +3773,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-crm.git",
-                "reference": "9738918d20fadac0ad210b798ce2267c1ce4363b"
+                "reference": "03c35104d9c8c4d0bc028fe538592a5efa8d7542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-crm/zipball/9738918d20fadac0ad210b798ce2267c1ce4363b",
-                "reference": "9738918d20fadac0ad210b798ce2267c1ce4363b",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-crm/zipball/03c35104d9c8c4d0bc028fe538592a5efa8d7542",
+                "reference": "03c35104d9c8c4d0bc028fe538592a5efa8d7542",
                 "shasum": ""
             },
             "require": {
@@ -3859,8 +3786,8 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
-                "jeffersongoncalves/laravel-erp-selling": "dev-main",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
+                "jeffersongoncalves/laravel-erp-selling": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -3898,10 +3825,9 @@
                 }
             ],
             "description": "ERP CRM — leads, opportunities and campaigns for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-crm",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "appointment",
                 "campaign",
                 "crm",
@@ -3910,16 +3836,10 @@
                 "opportunity"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-crm/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-crm/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:58:11+00:00"
+            "time": "2026-06-29T17:21:36+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-maintenance",
@@ -3927,12 +3847,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-maintenance.git",
-                "reference": "6613dbea0f8d1a87cb03163e9a2c9af5a67fe534"
+                "reference": "843e38b8df42846429138e9f3491f802cb1e8b32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-maintenance/zipball/6613dbea0f8d1a87cb03163e9a2c9af5a67fe534",
-                "reference": "6613dbea0f8d1a87cb03163e9a2c9af5a67fe534",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-maintenance/zipball/843e38b8df42846429138e9f3491f802cb1e8b32",
+                "reference": "843e38b8df42846429138e9f3491f802cb1e8b32",
                 "shasum": ""
             },
             "require": {
@@ -3940,7 +3860,7 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -3978,26 +3898,19 @@
                 }
             ],
             "description": "ERP maintenance — maintenance schedules and visits for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-maintenance",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "laravel",
                 "maintenance",
                 "maintenance-schedule",
                 "maintenance-visit"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-maintenance/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-maintenance/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:58:26+00:00"
+            "time": "2026-06-29T17:21:39+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-manufacturing",
@@ -4005,12 +3918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-manufacturing.git",
-                "reference": "90fa262584bbe258fa5a0b0e2e7ec02f4c1700b8"
+                "reference": "715fba0b0fed7196eff16e0b735f448915b743e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-manufacturing/zipball/90fa262584bbe258fa5a0b0e2e7ec02f4c1700b8",
-                "reference": "90fa262584bbe258fa5a0b0e2e7ec02f4c1700b8",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-manufacturing/zipball/715fba0b0fed7196eff16e0b735f448915b743e6",
+                "reference": "715fba0b0fed7196eff16e0b735f448915b743e6",
                 "shasum": ""
             },
             "require": {
@@ -4018,9 +3931,9 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
-                "jeffersongoncalves/laravel-erp-stock": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
+                "jeffersongoncalves/laravel-erp-stock": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4058,10 +3971,9 @@
                 }
             ],
             "description": "ERP manufacturing — BOMs, work orders and job cards for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-manufacturing",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "bom",
                 "job-card",
                 "laravel",
@@ -4070,16 +3982,10 @@
                 "work-order"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-manufacturing/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-manufacturing/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:58:01+00:00"
+            "time": "2026-06-29T17:21:39+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-projects",
@@ -4087,12 +3993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-projects.git",
-                "reference": "d1d80cf840b236fd2952f40cd99b06808a97c827"
+                "reference": "9263c9145866567cfea4be64f3a5d5f8edc3ecdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-projects/zipball/d1d80cf840b236fd2952f40cd99b06808a97c827",
-                "reference": "d1d80cf840b236fd2952f40cd99b06808a97c827",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-projects/zipball/9263c9145866567cfea4be64f3a5d5f8edc3ecdb",
+                "reference": "9263c9145866567cfea4be64f3a5d5f8edc3ecdb",
                 "shasum": ""
             },
             "require": {
@@ -4100,8 +4006,8 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4139,10 +4045,9 @@
                 }
             ],
             "description": "ERP projects — projects, tasks and timesheets for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-projects",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "laravel",
                 "project",
                 "projects",
@@ -4151,16 +4056,10 @@
                 "timesheet"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-projects/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-projects/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:58:14+00:00"
+            "time": "2026-06-29T17:21:36+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-quality",
@@ -4168,12 +4067,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-quality.git",
-                "reference": "2ed3b3d368458da08e375a72be50d00c1f4a250f"
+                "reference": "dfca1c83683596ad4272da3ba53c12ab95226deb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-quality/zipball/2ed3b3d368458da08e375a72be50d00c1f4a250f",
-                "reference": "2ed3b3d368458da08e375a72be50d00c1f4a250f",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-quality/zipball/dfca1c83683596ad4272da3ba53c12ab95226deb",
+                "reference": "dfca1c83683596ad4272da3ba53c12ab95226deb",
                 "shasum": ""
             },
             "require": {
@@ -4181,7 +4080,7 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4219,10 +4118,9 @@
                 }
             ],
             "description": "ERP quality management — inspections, goals, procedures and non-conformances for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-quality",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "inspection",
                 "laravel",
                 "non-conformance",
@@ -4231,10 +4129,10 @@
                 "quality-procedure"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-quality/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-quality/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "time": "2026-06-28T02:37:44+00:00"
+            "time": "2026-06-29T17:21:42+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-selling",
@@ -4242,12 +4140,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-selling.git",
-                "reference": "2d8c2b0ee8855188e83d21e5093cd11ebdc2ab90"
+                "reference": "b17f0b449ae473299737a41b7a779ace515ef1df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-selling/zipball/2d8c2b0ee8855188e83d21e5093cd11ebdc2ab90",
-                "reference": "2d8c2b0ee8855188e83d21e5093cd11ebdc2ab90",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-selling/zipball/b17f0b449ae473299737a41b7a779ace515ef1df",
+                "reference": "b17f0b449ae473299737a41b7a779ace515ef1df",
                 "shasum": ""
             },
             "require": {
@@ -4255,9 +4153,9 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
-                "jeffersongoncalves/laravel-erp-stock": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
+                "jeffersongoncalves/laravel-erp-stock": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4295,10 +4193,9 @@
                 }
             ],
             "description": "ERP selling — customers, quotations and sales orders for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-selling",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "customer",
                 "laravel",
                 "quotation",
@@ -4308,16 +4205,10 @@
                 "submittable"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-selling/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-selling/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:57:55+00:00"
+            "time": "2026-06-29T17:21:35+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-stock",
@@ -4325,12 +4216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-stock.git",
-                "reference": "e6149f16123a91b888f23c882b3493697d408689"
+                "reference": "eed28e773889c2a39aef4246eb323a61e1076bb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-stock/zipball/e6149f16123a91b888f23c882b3493697d408689",
-                "reference": "e6149f16123a91b888f23c882b3493697d408689",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-stock/zipball/eed28e773889c2a39aef4246eb323a61e1076bb3",
+                "reference": "eed28e773889c2a39aef4246eb323a61e1076bb3",
                 "shasum": ""
             },
             "require": {
@@ -4338,8 +4229,8 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4377,10 +4268,9 @@
                 }
             ],
             "description": "ERP stock — items, warehouses, stock entries and the perpetual inventory ledger for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-stock",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "inventory",
                 "laravel",
                 "stock",
@@ -4389,16 +4279,10 @@
                 "warehouse"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-stock/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-stock/tree/1.0.0"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:57:52+00:00"
+            "time": "2026-06-29T17:21:39+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-subcontracting",
@@ -4406,12 +4290,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-subcontracting.git",
-                "reference": "3d6a05f1cb1fcd205de2ba50c2232966c3f538fd"
+                "reference": "a40292d8888c060d19e1f5a24fb58d9876920fed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-subcontracting/zipball/3d6a05f1cb1fcd205de2ba50c2232966c3f538fd",
-                "reference": "3d6a05f1cb1fcd205de2ba50c2232966c3f538fd",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-subcontracting/zipball/a40292d8888c060d19e1f5a24fb58d9876920fed",
+                "reference": "a40292d8888c060d19e1f5a24fb58d9876920fed",
                 "shasum": ""
             },
             "require": {
@@ -4419,11 +4303,11 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-accounting": "dev-main",
-                "jeffersongoncalves/laravel-erp-buying": "dev-main",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
-                "jeffersongoncalves/laravel-erp-manufacturing": "dev-main",
-                "jeffersongoncalves/laravel-erp-stock": "dev-main",
+                "jeffersongoncalves/laravel-erp-accounting": "self.version",
+                "jeffersongoncalves/laravel-erp-buying": "self.version",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
+                "jeffersongoncalves/laravel-erp-manufacturing": "self.version",
+                "jeffersongoncalves/laravel-erp-stock": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4461,10 +4345,9 @@
                 }
             ],
             "description": "ERP subcontracting — subcontracting BOMs, orders and receipts for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-subcontracting",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "laravel",
                 "manufacturing",
                 "purchase-order",
@@ -4472,16 +4355,10 @@
                 "submittable"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-subcontracting/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-subcontracting/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:58:08+00:00"
+            "time": "2026-06-29T17:21:36+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-erp-support",
@@ -4489,12 +4366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffersongoncalves/laravel-erp-support.git",
-                "reference": "8a8475cc7414d803eafd7e1b6118f1e5c40850f2"
+                "reference": "d982e63109fb14aa25c442fca1fdcbc78e4664d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-support/zipball/8a8475cc7414d803eafd7e1b6118f1e5c40850f2",
-                "reference": "8a8475cc7414d803eafd7e1b6118f1e5c40850f2",
+                "url": "https://api.github.com/repos/jeffersongoncalves/laravel-erp-support/zipball/d982e63109fb14aa25c442fca1fdcbc78e4664d4",
+                "reference": "d982e63109fb14aa25c442fca1fdcbc78e4664d4",
                 "shasum": ""
             },
             "require": {
@@ -4502,7 +4379,7 @@
                 "illuminate/database": "^11.0|^12.0|^13.0",
                 "illuminate/events": "^11.0|^12.0|^13.0",
                 "illuminate/support": "^11.0|^12.0|^13.0",
-                "jeffersongoncalves/laravel-erp-core": "dev-main",
+                "jeffersongoncalves/laravel-erp-core": "self.version",
                 "php": "^8.2",
                 "spatie/laravel-package-tools": "^1.15"
             },
@@ -4540,10 +4417,9 @@
                 }
             ],
             "description": "ERP support — issues, service level agreements and warranty claims for the Laravel ERP ecosystem",
-            "homepage": "https://github.com/jeffersongoncalves/laravel-erp-support",
+            "homepage": "https://github.com/jeffersongoncalves/laravel-erp",
             "keywords": [
                 "ERP",
-                "ERPNext",
                 "helpdesk",
                 "issue",
                 "laravel",
@@ -4552,16 +4428,10 @@
                 "warranty"
             ],
             "support": {
-                "issues": "https://github.com/jeffersongoncalves/laravel-erp-support/issues",
-                "source": "https://github.com/jeffersongoncalves/laravel-erp-support/tree/main"
+                "issues": "https://github.com/jeffersongoncalves/laravel-erp/issues",
+                "source": "https://github.com/jeffersongoncalves/laravel-erp"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/jeffersongoncalves",
-                    "type": "github"
-                }
-            ],
-            "time": "2026-06-28T16:58:17+00:00"
+            "time": "2026-06-29T17:21:38+00:00"
         },
         {
             "name": "jeffersongoncalves/laravel-pwa-favicon",
@@ -7567,16 +7437,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.23",
+            "version": "v0.12.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4dcc0f08047d52bbde475eda481146fd8e27e1a4"
+                "reference": "ca0fdcf8a7617afa3adfdf1b5fef573dffb69ca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4dcc0f08047d52bbde475eda481146fd8e27e1a4",
-                "reference": "4dcc0f08047d52bbde475eda481146fd8e27e1a4",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ca0fdcf8a7617afa3adfdf1b5fef573dffb69ca1",
+                "reference": "ca0fdcf8a7617afa3adfdf1b5fef573dffb69ca1",
                 "shasum": ""
             },
             "require": {
@@ -7640,9 +7510,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.23"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.24"
             },
-            "time": "2026-05-23T13:41:31+00:00"
+            "time": "2026-06-29T15:41:09+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
